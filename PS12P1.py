@@ -1,6 +1,6 @@
 def parse_name(full_name):
     parts = full_name.strip().split()
-    if len(parts) != 2:  # Ensure exactly two parts
+    if len(parts) != 2:  
         return "Invalid input. Enter in 'Firstname Lastname' format."
     
     first, last = parts
